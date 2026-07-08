@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* Immersive background theme adjustments */
+body {
+  background-color: #050714;
+  color: #f8fafc;
+  margin: 0;
+  overflow: hidden;
+  height: 100vh;
+}
+
+/* Custom Scrollbar styling for retro scroll boards */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 5px;
+}
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: rgba(10, 14, 42, 0.8);
+}
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: rgba(34, 211, 238, 0.4);
+  border-radius: 4px;
+}
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: rgba(34, 211, 238, 0.6);
+}
+
+/* Glow effects matching the Immersive UI */
+.glow-cyan {
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.35);
+}
+
+.glow-orange {
+  box-shadow: 0 0 15px rgba(249, 115, 22, 0.3);
+}
+
+.text-glow-cyan {
+  text-shadow: 0 0 8px rgba(34, 211, 238, 0.5);
+}
+
+.text-glow-orange {
+  text-shadow: 0 0 8px rgba(249, 115, 22, 0.5);
+}
+
+/* Atmospheric backgrounds */
+.cosmic-gradient {
+  background: radial-gradient(circle at 50% 0%, #1a1f4d 0%, transparent 75%);
+}
+
+

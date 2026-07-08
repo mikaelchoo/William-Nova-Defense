@@ -1,0 +1,6 @@
+{
+  "name": "William新星防御",
+  "description": "致敬经典街机游戏《导弹指挥官》（Missile Command）的塔防射击游戏。玩家发射拦截导弹，产生范围爆炸，保护底部的城市与导弹发射塔不受敌方火箭侵袭。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
